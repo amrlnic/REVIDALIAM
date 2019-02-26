@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Gradle: android.arch.core:common:1.1.1@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar" />
+  </library>
+  <library name="Gradle: android.arch.core:runtime-1.1.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/670e835f86f3532efa14731f6f1d8376/jars/classes.jar" />
+  </library>
+  <library name="Gradle: android.arch.lifecycle:common:1.1.1@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar" />
+  </library>
+  <library name="Gradle: android.arch.lifecycle:livedata-1.1.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b56f2d011f3209359e657ace1e59c6a2/jars/classes.jar" />
+  </library>
+  <library name="Gradle: android.arch.lifecycle:livedata-core-1.1.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2ad781e09639f91524dd0c17f6fcf959/jars/classes.jar" />
+  </library>
+  <library name="Gradle: android.arch.lifecycle:runtime-1.1.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4a67e45f1ab87cceb2e1b3aa4e5e623c/jars/classes.jar" />
+  </library>
+  <library name="Gradle: android.arch.lifecycle:viewmodel-1.1.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/87dd1404ab2c1ee0523707567fb7b206/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:animated-vector-drawable-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b7b10443e3e225d90b067a179bb8d775/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:appcompat-v7-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d1db39a2d5c564913a195f830d6a075a/res" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d1db39a2d5c564913a195f830d6a075a/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:asynclayoutinflater-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d7096cb581ecdb88a923ac33a67906b6/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:cardview-v7-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b21e4cfe0edd3dc08c7da5dc3d212138/jars/classes.jar" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b21e4cfe0edd3dc08c7da5dc3d212138/res" />
+  </library>
+  <library name="Gradle: com.android.support:collections:28.0.0@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar" />
+  </library>
+  <library name="Gradle: com.android.support.constraint:constraint-layout-1.1.3">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a31c5930f5777243b5abeab9f7551905/jars/classes.jar" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a31c5930f5777243b5abeab9f7551905/res" />
+  </library>
+  <library name="Gradle: com.android.support.constraint:constraint-layout-solver:1.1.3@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar" />
+  </library>
+  <library name="Gradle: com.android.support:coordinatorlayout-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/de31f9b27f2d67e5d0e718b169d4ba60/jars/classes.jar" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/de31f9b27f2d67e5d0e718b169d4ba60/res" />
+  </library>
+  <library name="Gradle: com.android.support:cursoradapter-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/07b38ac378788442ee677aead5376574/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:customview-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3f94b9129fca47438ab5f602b06ebb76/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:design-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/eaaba646b547cc4e5c69443559c33041/res" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/eaaba646b547cc4e5c69443559c33041/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:documentfile-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6da0b0c9d5a01f7341de7c97cb2e3e32/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:drawerlayout-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/750fec2e2db22f8792678ee933d6f8df/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:interpolator-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/61d2056d2904c8307a5333603f3e5739/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:loader-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a238b141002fdd8db240e1e04c4f9ad6/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:localbroadcastmanager-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/41bc83b82e18d276f7f352ff19a94b7a/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:print-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/227f4d8f37275c685afe042116d27d0e/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:recyclerview-v7-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/082b3a3cc6c96e50f24b0c04d4aef912/jars/classes.jar" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/082b3a3cc6c96e50f24b0c04d4aef912/res" />
+  </library>
+  <library name="Gradle: com.android.support:slidingpanelayout-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/48830398cce086613c0be639b5db8e0b/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:support-annotations:28.0.0@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar" />
+  </library>
+  <library name="Gradle: com.android.support:support-compat-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/08d7ddc62cd28fae19bdc0b1e922805a/res" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/08d7ddc62cd28fae19bdc0b1e922805a/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:support-core-ui-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/23145b9393de8e331226ed9e55066c8d/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:support-core-utils-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e34295b47580cc1a013717aee6997d1b/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:support-fragment-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ad0bd19d1026a8d5d1c7a26b78abbaeb/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:support-vector-drawable-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/edfd83cc6d195b9b022addb473e86fda/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:swiperefreshlayout-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/bc638ae9fec712b8a8555e2ca0741eba/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support.test.espresso:espresso-core-3.0.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/espresso-core-3.0.1.aar/466bad8aca88b87d13860bf7eaa70709/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support.test.espresso:espresso-idling-resource-3.0.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/espresso-idling-resource-3.0.1.aar/c697cf87d29c2f4d8859f1906158ea18/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support.test:monitor-1.0.2">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/6dc99e2ba690ff79b621c9fa863b0b71/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support.test:rules-1.0.1">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/rules-1.0.1.aar/925f35c44e4f450523b2f3ed00b41493/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support.test:runner-1.0.2">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/runner-1.0.2.aar/46119a506c7eabf3678a9966576dd192/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:transition-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/2d29f15885d26a7104380e39f2895f0a/jars/classes.jar" />
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/2d29f15885d26a7104380e39f2895f0a/res" />
+  </library>
+  <library name="Gradle: com.android.support:versionedparcelable-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2ae853445e16c992f1b00ff15c7b937a/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.android.support:viewpager-28.0.0">
+    <archive path="C:/Users/amori/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/850034a13b7e75c67fc9f8eafa72e24f/jars/classes.jar" />
+  </library>
+  <library name="Gradle: com.google.code.findbugs:jsr305:2.0.1@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar" />
+  </library>
+  <library name="Gradle: com.squareup:javawriter:2.1.1@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar" />
+  </library>
+  <library name="Gradle: javax.inject:javax.inject:1@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+  </library>
+  <library name="Gradle: junit:junit:4.12@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" />
+  </library>
+  <library name="Gradle: net.sf.kxml:kxml2:2.3.0@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest-core:1.3@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest-integration:1.3@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar" />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest-library:1.3@jar">
+    <archive path="C:/Users/amori/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar" />
+  </library>
+</eclipse-userlibraries>
+

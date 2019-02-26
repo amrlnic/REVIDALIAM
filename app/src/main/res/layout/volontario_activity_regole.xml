@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".supermercato.HomeSupermercato">
+
+    <RelativeLayout
+            android:id="@+id/layoutLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+
+        <ImageView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/revidaliam_logo"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_below="@id/layoutLogo"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/border">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_shopping_basket_black_24dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regolamento per i volontari"
+                    android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Da grandi poteri derivano grandi Responsabilità!"/>
+        <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L'operazione di volontariato è un'operazione delicata e ha bisogno di buon senso e rispetto nei confronti del cliente, Segui i passi correttamente e sarai ricompensato "/>
+        <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passo 1: Aggiungi una nuova richiesta tra le richieste disponibili"/>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passo 2: Vai al supermercato scelto e effettua la spesa."/>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passo 3: Consegna la spesa al cliente e ottieni la tua ricompensa!"/>
+
+        <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facile no? Allora Iniziamo subito! I nostri clienti ci aspettano!"/>
+
+        <Button
+                android:id="@+id/ok"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutto Chiaro"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

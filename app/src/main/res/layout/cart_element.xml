@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical" >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+        <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageProduct"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/cheese"
+                android:layout_alignParentLeft="true"
+        />
+
+        <TextView
+                android:id="@+id/nomeProdotto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="prova1"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+
+        <TextView
+                android:id="@+id/prezzo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="prezzo"
+                android:padding="10dp"
+                android:textSize="16dp"/>
+
+        <TextView
+                android:layout_toRightOf="@id/imageProduct"
+                android:id="@+id/quantita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="quantita"
+                android:padding="10dp"
+                android:textSize="16dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

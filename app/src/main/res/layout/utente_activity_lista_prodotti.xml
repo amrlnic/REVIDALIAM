@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/layoutLogo"
+    >
+        <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:src="@drawable/revidaliam_logo"
+                android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Cerca"
+            android:layout_below="@id/layoutLogo"
+            android:focusableInTouchMode="true"
+            android:inputType="text"
+            android:textColorHint="@color/hintTextColor"
+            android:layout_marginTop="3dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/searchtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryTextColor"
+                android:inputType="textPassword"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <FrameLayout
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:text="Prodotti Disponibili"/>
+
+            <ListView
+                    android:id="@+id/mylistview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+            </ListView>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+    >
+
+        <ImageView
+                android:id="@+id/carrello"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/carrello"
+                android:layout_alignParentEnd="true"
+
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageProduct"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/prodotti"
+                android:layout_alignParentLeft="true"
+        />
+
+        <TextView
+                android:id="@+id/nomeProdotto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="prova1"
+                android:padding="10dp"
+                android:textSize="20dp"/>
+
+        <TextView
+                android:id="@+id/prezzo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_alignParentBottom="true"
+                android:text="prezzo"
+                android:padding="10dp"
+                android:textSize="16dp"/>
+
+        <ImageButton
+                android:id="@+id/elimina"
+                android:src="@drawable/ic_cancel_black_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.amori.revidaliam">
+          package="com.unisa.ium.revidaliam.revidaliam">
 
     <application
             android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@mipmap/revidaliam_logo"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".supermercato.DettagliSupermercato"/>
+        <activity android:name=".supermercato.HomeSupermercato"/>
+        <activity android:name=".supermercato.RegistrazioneSupermercatoActivity"/>
+        <activity android:name=".supermercato.LoginSupermercatoActivity"/>
+        <activity android:name=".supermercato.ImpostazioniActivity"/>
+        <activity android:name=".supermercato.ModificaUtente"/>
+        <activity android:name=".supermercato.AggiungiProdotto"/>
+        <activity android:name=".supermercato.ListaProdottiActivity"/>
+        <activity android:name=".supermercato.DettaglioProdottoSupermercato"/>
+        <activity android:name=".utente.DettagliUtente"/>
+        <activity android:name=".utente.ModificaUtente"/>
+        <activity android:name=".utente.HomeUtente"/>
+        <activity android:name=".utente.RegistrazioneActivity"/>
+        <activity android:name=".utente.LoginUtenteActivity"/>
+        <activity android:name=".utente.ImpostazioniActivity"/>
+        <activity android:name=".utente.InserisciIndirizzo"/>
+        <activity android:name=".utente.SceltaIndirizzoActivity"/>
+        <activity android:name=".utente.SceltaSupermercato"/>
+        <activity android:name=".utente.UtenteListaProdottiActivity"/>
+        <activity android:name=".utente.DettagliProdotto"/>
+        <activity android:name=".utente.DettaglioProdottoSupermercato"/>
+        <activity android:name=".utente.Carrello"/>
+        <activity android:name=".utente.StoricoOrdini"/>
+        <activity android:name=".utente.DettagliOrdine"/>
+        <activity android:name=".volontario.RegoleVolontario"></activity>
+        <activity android:name=".volontario.DettaglioRichiestaAccettataVolontario"/>
+        <activity android:name=".volontario.ListaRichiesteAccettateVolontario"/>
+        <activity android:name=".volontario.AccettaRichiestaVolontario"/>
+        <activity android:name=".volontario.ListaProdottiVolontario"/>
+        <activity android:name=".volontario.DettaglioRichiestaVolontario"/>
+        <activity android:name=".volontario.ListaRichiesteVolontario"/>
+        <activity android:name=".volontario.AggiungiRichiestaVolontario"/>
+        <activity android:name=".volontario.DettagliVolontario"/>
+        <activity android:name=".volontario.HomeVolontario"/>
+        <activity android:name=".volontario.LoginVolontarioActivity"/>
+        <activity android:name=".volontario.RegistrazioneVolontarioActivity"/>
+        <activity android:name=".volontario.ImpostazioniActivity"/>
+        <activity android:name=".volontario.ModificaUtente"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -16,6 +54,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
     </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
 </manifest>

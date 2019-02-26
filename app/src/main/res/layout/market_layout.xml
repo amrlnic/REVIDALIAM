@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:id="@+id/market"
+            android:layout_width="115dp"
+            android:layout_height="145dp"
+            android:background="@color/secondaryColor"
+            android:layout_centerInParent="true"
+    >
+
+        <ImageView
+                android:layout_margin="10dp"
+                android:src="@drawable/supermarket"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_above="@id/testo"
+        />
+
+        <TextView
+                android:gravity="center"
+                android:id="@+id/testo"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:text="prova"
+                android:textAlignment="gravity"
+                android:textSize="15dp"
+                android:textColor="@color/primaryTextColor"
+                android:layout_alignParentBottom="true"
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>

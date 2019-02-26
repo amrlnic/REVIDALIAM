@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:id="@+id/layoutLogo"
+        >
+            <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="160dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/revidaliam_logo"
+                    android:layout_centerHorizontal="true"
+            />
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_below="@id/layoutLogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp">
+                    <ImageView
+                            android:id="@+id/imageProduct"
+                            android:src="@drawable/carrots"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+            <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp">
+                        <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+                            <TextView
+                                    android:id="@+id/nomeProdotto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:textSize="20dp"
+                                    android:text="Nome del prodotto"/>
+                        </RelativeLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/descrizioneProdotto"
+                        android:layout_width="300dp"
+                        android:layout_height="120dp"
+                        android:layout_marginVertical="5dp"
+                        android:text="Scrivere la descrizione del prodotto"
+                />
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                    <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+                        <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:id="@+id/testo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Quantità: "
+                                    android:textSize="15dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="5dp"
+                            />
+
+                            <NumberPicker
+                                    android:layout_toRightOf="@id/testo"
+                                    android:focusableInTouchMode="true"
+                                    android:id="@+id/counter"
+                                    android:layout_width="60dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dp"
+                                    android:theme="@style/NumberPickerText"
+
+
+                            />
+
+                            <TextView
+                                    android:id="@+id/prezzo"
+                                    android:text="prezzo"
+                                    android:textSize="25dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="80dp"
+                                    android:layout_height="wrap_content" />
+                        </RelativeLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/aggiungiprodotto"
+                    android:text="Aggiungi al Carrello"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Button"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
